@@ -63,8 +63,13 @@ module.exports = withAntdLess({
     return config;
   },
 
+  // if you use webpack5
+
+  // next.js >= 11.0
+  webpack5: true,
+
+  // next.js >= 10.2 and < 11.0
   future: {
-    // if you use webpack5
     webpack5: true,
   },
 });
